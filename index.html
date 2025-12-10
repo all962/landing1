@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+<title>FloraExpress</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fdfaf4; 
+    }
+
+    .header {
+        width: 100%;
+        background: #2a5d34;
+        padding: 15px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fc94ea;
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .menu a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        transition: 0.3s;
+    }
+
+    .menu a:hover {
+        color: #ffd700;
+    }
+
+    .section {
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #2a5d34;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .flower-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .flower {
+        width: 300px;
+        text-align: center;
+    }
+
+    .flower img {
+        width: 100%;
+        border-radius: 12px;
+        display: block;
+    }
+
+    .flower p {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #2a5d34;
+    }
+
+    .text-block {
+        max-width: 800px;
+        margin: 30px auto;
+        font-size: 16px;
+        color: #333;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .indent {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">FloraExpress</div>
+    <div class="menu">
+        <a href="index">Букеты</a>
+        <a href="page1">Редкие цветы</a>
+        <a href="page2">Главные цветы</a>
+    </div>
+</div>
+
+<div class="section" id="bukety">
+    <h2>Наши Букеты</h2>
+    <div class="flower-container">
+        <div class="flower">
+            <img src="https://i.pinimg.com/originals/42/91/63/429163b714a3d433e4146b87cccec1bc.jpg" alt="Яркий букет">
+            <p>Яркий букет — смесь разноцветных цветов для праздника.</p>
+        </div>
+        <div class="flower">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/027/017/538/small_2x/white-roses-bouquet-white-roses-close-up-created-with-generative-ai-technology-photo.jpeg" alt="Белые розы">
+            <p>Букет белых роз — элегантность и утонченность.</p>
+        </div>
+        <div class="flower">
+            <img src="https://img.freepik.com/premium-photo/bouquet-lavender-with-ribbon-tied-around-it_662214-36175.jpg" alt="Лаванда">
+            <p>Букет лаванды — ароматная гармония для души.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="pochemu">
+    <h2>Почему FloraExpress</h2>
+    <div class="text-block">
+        <div class="indent">Мы доставляем свежие цветы по всей стране быстро и аккуратно.</div>
+        <div class="indent">Большой выбор: классические, редкие и эксклюзивные букеты.</div>
+        <div class="indent">Высокое качество и забота о каждом заказе — наша главная цель.</div>
+        <div class="indent">FloraExpress делает каждый праздник ярче и красивее.</div>
+    </div>
+</div>
+
+</body>
+</html>

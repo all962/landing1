@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+<title>FloraExpress</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fdfaf4; 
+    }
+
+    .header {
+        width: 100%;
+        background: #2a5d34;
+        padding: 15px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fc94ea;
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .menu a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        transition: 0.3s;
+    }
+
+    .menu a:hover {
+        color: #ffd700;
+    }
+
+    .section {
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #2a5d34;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .flower-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .flower {
+        width: 300px;
+        text-align: center;
+    }
+
+    .flower img {
+        width: 100%;
+        border-radius: 12px;
+        display: block;
+    }
+
+    .flower p {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #2a5d34;
+    }
+
+    .text-block {
+        max-width: 800px;
+        margin: 30px auto;
+        font-size: 16px;
+        color: #333;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .indent {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+</style>
+</head>
+
+<div class="header">
+    <div class="logo">FloraExpress</div>
+    <div class="menu">
+        <a href="index">Букеты</a>
+        <a href="page1">Редкие цветы</a>
+        <a href="page2">Главные цветы</a>
+    </div>
+</div>
+
+<div class="section" id="redkie">
+    <h2>Редкие цветы</h2>
+    <div class="flower-container">
+        <div class="flower">
+            <img src="https://services.meteored.com/img/article/il-fiore-che-sa-di-morto-ma-che-tutti-vogliono-vedere-alla-scoperta-del-raro-e-fugace-fiore-cadavere-1754838692599_1280.jpeg" alt="Титан араум">
+            <p>Титан араум — огромный и редкий цветок, удивляет всех.</p>
+        </div>
+        <div class="flower">
+            <img src="https://img.freepik.com/premium-photo/beautiful-pink-lotus-nature_39791-21.jpg?semt=ais_hybrid&w=740&q=80" alt="Лотос">
+            <p>Лотос — символ чистоты и гармонии в природе.</p>
+        </div>
+        <div class="flower">
+            <img src="https://cdn.images.express.co.uk/img/dynamic/13/1200x712/5093296.jpg" alt="Орхидея">
+            <p>Орхидея — экзотика и элегантность для ценителей.</p>
+        </div>
+    </div>
+</div>

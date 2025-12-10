@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+<title>FloraExpress</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fdfaf4; 
+    }
+
+    .header {
+        width: 100%;
+        background: #2a5d34;
+        padding: 15px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fc94ea;
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .menu a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        transition: 0.3s;
+    }
+
+    .menu a:hover {
+        color: #ffd700;
+    }
+
+    .section {
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #2a5d34;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .flower-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .flower {
+        width: 300px;
+        text-align: center;
+    }
+
+    .flower img {
+        width: 100%;
+        border-radius: 12px;
+        display: block;
+    }
+
+    .flower p {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #2a5d34;
+    }
+
+    .text-block {
+        max-width: 800px;
+        margin: 30px auto;
+        font-size: 16px;
+        color: #333;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .indent {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+</style>
+</head>
+
+<div class="header">
+    <div class="logo">FloraExpress</div>
+    <div class="menu">
+        <a href="index.html">Букеты</a>
+        <a href="page1.html">Редкие цветы</a>
+        <a href="page2.html">Главные цветы</a>
+    </div>
+</div>
+
+<div class="section" id="glavnye">
+    <h2>Главные цветы</h2>
+    <div class="flower-container">
+        <div class="flower">
+            <img src="https://img.freepik.com/premium-photo/close-up-red-roses-blooming-against-black-background_1048944-23365680.jpg?semt=ais_hybrid&w=740" alt="Роза">
+            <p>Роза — символ любви и красоты во всех культурах.</p>
+        </div>
+        <div class="flower">
+            <img src="https://avatars.mds.yandex.net/get-mpic/5319158/2a00000191fc8d4af2d2537f098bcb8e58b4/orig" alt="Тюльпан">
+            <p>Тюльпан — яркий весенний цветок, радующий глаз.</p>
+        </div>
+        <div class="flower">
+            <img src="https://i.pinimg.com/originals/1c/5e/9b/1c5e9bad4b19a98b65452d5a62df57f2.jpg" alt="Подсолнух">
+            <p>Подсолнух — символ солнца и позитивного настроения.</p>
+        </div>
+    </div>
+</div>
